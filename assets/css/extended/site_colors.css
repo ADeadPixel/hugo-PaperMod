@@ -1,0 +1,40 @@
+:root {
+    --theme: #fff;
+    --entry: #cfcfff;
+    --primary: rgba(0, 0, 106, 0.88);
+    --secondary: rgba(0, 0, 80, 0.78);
+    --tertiary: rgba(0, 0, 106, 0.16);
+    --content: rgba(0, 0, 60, 0.88);
+    --hljs-bg: #1c1d21;
+    --code-bg: #f5f5f5;
+    --border: #eee;
+}
+
+.dark {
+    /* --theme: #27005D; */
+    --theme: linear-gradient(180deg, rgba(118,0,204,1) 0%, rgba(148,0,255,1) 45%, rgba(212,153,255,1) 100%);
+    --entry: #674c8d;
+    --primary: #AED2FF;
+    --secondary: #7E9D90;
+    --tertiary: #EBE5D7;
+    --content: #EEEEEE;
+    --hljs-bg: #2e2e33;
+    --code-bg: #674c8d;
+    --border: #446;
+}
+
+.button-inner {
+    color: var(--code-bg);
+}
+/*
+Original Light Theme
+    --theme: #fff;
+    --entry: #cfcfff;
+    --primary: rgba(0, 0, 106, 0.88);
+    --secondary: rgba(0, 0, 80, 0.78);
+    --tertiary: rgba(0, 0, 106, 0.16);
+    --content: rgba(0, 0, 60, 0.88);
+    --hljs-bg: #1c1d21;
+    --code-bg: #f5f5f5;
+    --border: #eee;
+*/
