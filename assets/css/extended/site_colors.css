@@ -8,6 +8,7 @@
     --hljs-bg: #1c1d21;
     --code-bg: #f5f5f5;
     --border: #eee;
+    --weddingDate: linear-gradient(90deg, rgba(95,133,117,1) 0%, rgba(120,159,143,1) 45%, rgba(135,169,155,1) 100%);
 }
 
 .dark {
@@ -21,11 +22,21 @@
     --hljs-bg: #2e2e33;
     --code-bg: #674c8d;
     --border: #446;
+    --weddingDate: #00006a;
 }
 
 .button-inner {
     color: var(--code-bg);
 }
+
+/* Custom Color Swatch
+https://colorkit.co/color-palette-generator/e4c6ff-5f8575-faeddc-000d80/
+e4c6ff - Light Violet
+5f8575 - Eucalyptus Green
+faeddc - Pale Tan
+00006a - Darkish Blue
+*/
+
 /*
 Original Light Theme
     --theme: #fff;

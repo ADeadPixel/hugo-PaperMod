@@ -1,0 +1,6 @@
+.weddingDate {
+    font-size: 72px;
+    background: var(--weddingDate);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
