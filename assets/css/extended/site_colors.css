@@ -3,12 +3,15 @@
     --entry: #cfcfff;
     --primary: rgba(0, 0, 106, 0.88);
     --secondary: rgba(0, 0, 80, 0.78);
-    --tertiary: rgba(0, 0, 106, 0.16);
+    --tertiary: rgba(0, 0, 106, 0.25);
     --content: rgba(0, 0, 60, 0.88);
     --hljs-bg: #1c1d21;
     --code-bg: #f5f5f5;
     --border: #eee;
+    --buttonColor: #faeddc;
+    --buttonTextColor: #5f8575;
     --weddingDate: linear-gradient(90deg, rgba(95,133,117,1) 0%, rgba(120,159,143,1) 45%, rgba(135,169,155,1) 100%);
+    --footerColor: #00006a;
 }
 
 .dark {
@@ -22,11 +25,18 @@
     --hljs-bg: #2e2e33;
     --code-bg: #674c8d;
     --border: #446;
+    --buttonColor: #faeddc;
+    --buttonTextColor: #00006a;
     --weddingDate: #00006a;
+    --footerColor: #00006a;
+}
+
+.button {
+    background: var(--buttonColor);
 }
 
 .button-inner {
-    color: var(--code-bg);
+    color: var(--buttonTextColor);
 }
 
 /* Custom Color Swatch
